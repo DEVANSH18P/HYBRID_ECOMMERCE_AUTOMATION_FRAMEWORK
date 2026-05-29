@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-29T15:06:43 IST" name="AutomationSuite" finished-at="2026-05-29T15:06:48 IST" duration-ms="4242">
+  <suite started-at="2026-05-29T16:50:37 IST" name="AutomationSuite" finished-at="2026-05-29T16:50:41 IST" duration-ms="4692">
     <groups>
     </groups>
-    <test started-at="2026-05-29T15:06:43 IST" name="LoginTests" finished-at="2026-05-29T15:06:48 IST" duration-ms="4242">
-      <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@72f926e6]" started-at="2026-05-29T15:06:43 IST" name="setup" finished-at="2026-05-29T15:06:47 IST" duration-ms="3491" status="PASS">
+    <test started-at="2026-05-29T16:50:37 IST" name="EcommerceTest" finished-at="2026-05-29T16:50:41 IST" duration-ms="4692">
+      <class name="tests.EndToEndTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.EndToEndTest@72f926e6]" started-at="2026-05-29T16:50:37 IST" name="setup" finished-at="2026-05-29T16:50:40 IST" duration-ms="3200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@72f926e6]" started-at="2026-05-29T15:06:47 IST" name="validLoginTest" finished-at="2026-05-29T15:06:47 IST" duration-ms="481" status="PASS">
+        <test-method signature="completeEcommerceFlowTest()[pri:0, instance:tests.EndToEndTest@72f926e6]" started-at="2026-05-29T16:50:40 IST" name="completeEcommerceFlowTest" finished-at="2026-05-29T16:50:41 IST" duration-ms="1149" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@72f926e6]" started-at="2026-05-29T15:06:47 IST" name="tearDown" finished-at="2026-05-29T15:06:48 IST" duration-ms="221" status="PASS">
+        </test-method> <!-- completeEcommerceFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndToEndTest@72f926e6]" started-at="2026-05-29T16:50:41 IST" name="tearDown" finished-at="2026-05-29T16:50:41 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest -->
-    </test> <!-- LoginTests -->
+      </class> <!-- tests.EndToEndTest -->
+    </test> <!-- EcommerceTest -->
   </suite> <!-- AutomationSuite -->
 </testng-results>

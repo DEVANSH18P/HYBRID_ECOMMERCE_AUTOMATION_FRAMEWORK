@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-AutomationSuite" class="navigator-link ">
-                    <span>C:\Users\DEVANSH PRADHAN\eclipse-workspace\Hybrid_Ecommerce_Automation_Framework\testing.xml</span>
+                    <span>C:\Users\DEVANSH PRADHAN\eclipse-workspace\Hybrid_Ecommerce_Automation_Framework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-AutomationSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AutomationSuite" title="tests.LoginTest" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-AutomationSuite" title="tests.EndToEndTest" class="method navigator-link" hash-for-method="completeEcommerceFlowTest">completeEcommerceFlowTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-AutomationSuite -->
@@ -121,14 +121,14 @@
           <div class="suite-AutomationSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.LoginTest</span>
+              <span class="class-name">tests.EndToEndTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validLoginTest">
-                  </a> <!-- validLoginTest -->
-                  <span class="method-name">validLoginTest</span>
+                  <a name="completeEcommerceFlowTest">
+                  </a> <!-- completeEcommerceFlowTest -->
+                  <span class="method-name">completeEcommerceFlowTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,18 +136,18 @@
         </div> <!-- panel AutomationSuite -->
         <div panel-name="test-xml-AutomationSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DEVANSH PRADHAN\eclipse-workspace\Hybrid_Ecommerce_Automation_Framework\testing.xml</span>
+            <span class="header-content">C:\Users\DEVANSH PRADHAN\eclipse-workspace\Hybrid_Ecommerce_Automation_Framework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;AutomationSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;LoginTests&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EcommerceTest&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.EndToEndTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- LoginTests --&gt;
+  &lt;/test&gt; &lt;!-- EcommerceTest --&gt;
 &lt;/suite&gt; &lt;!-- AutomationSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +159,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">LoginTests (1 class)</span>
+                <span class="test-name">EcommerceTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validLoginTest')
-data.setCell(0, 2, 'tests.LoginTest')
-data.setCell(0, 3, 481);
+data.setCell(0, 1, 'completeEcommerceFlowTest')
+data.setCell(0, 2, 'tests.EndToEndTest')
+data.setCell(0, 3, 1149);
 window.suiteTableData['AutomationSuite']= { tableData: data, tableDiv: 'times-div-AutomationSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 481 ms</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-AutomationSuite">
               </div> <!-- times-div-AutomationSuite -->
             </div> <!-- times-div -->
@@ -220,18 +220,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.EndToEndTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validLoginTest</span>
-                <span class="method-start">3492 ms</span>
+                <span class="method-name">completeEcommerceFlowTest</span>
+                <span class="method-start">3210 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">3984 ms</span>
+                <span class="method-start">4359 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
